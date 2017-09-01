@@ -6,3 +6,9 @@ deploy:
   provider: heroku
   api_key: ffac8c94-3488-4db2-8302-b14e7b731efd
   app: python-flask-reactjs
+
+install:
+  - pip install -r ../requirements.txt
+
+cache:
+  - pip
