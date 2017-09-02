@@ -12,7 +12,7 @@ install:
 
 script:
   - pytest
-  - source env/bin/activate
+  - source bin/activate
 
 cache:
   - pip
