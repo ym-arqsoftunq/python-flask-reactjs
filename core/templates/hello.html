@@ -14,13 +14,11 @@
     <!-- scripts -->
     <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
-    <script type="text/jsx">
-
-      /*** @jsx React.DOM */
+    <script type="text/javascript">
 
       var react = React.createClass({
         render: function() {
-          return (<h2>Probando react!</h2>);
+          return React.createElement('div', null, `Probando React!`);
         }
       });
 
