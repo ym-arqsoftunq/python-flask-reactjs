@@ -5,7 +5,6 @@
   "main": "",
   "license": "MIT",
   "private": true,
-  "directory": "./project/static/bower_components",
   "ignore": [
     "**/.*",
     "node_modules",
