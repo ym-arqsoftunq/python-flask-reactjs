@@ -1,0 +1,20 @@
+{
+  "name": "python-flask-reactjs",
+  "homepage": "https://github.com/ym-arqsoftunq/python-flask-reactjs",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "directory": "./project/static/bower_components",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.6",
+        "react": "^15.1.0"
+      }
+}

@@ -8,10 +8,28 @@
   </head>
   <body>
     <div class="container">
-      <h1>Flask React</h1>
       <br>
       <div id="content"></div>
     </div>
     <!-- scripts -->
+    <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script type="text/jsx">
+
+      /*** @jsx React.DOM */
+
+      var react = React.createClass({
+        render: function() {
+          return (<h2>Probando react!</h2>);
+        }
+      });
+
+      ReactDOM.render(
+        React.createElement(react, null),
+        document.getElementById('content')
+      );
+
+    </script>
   </body>
 </html>
