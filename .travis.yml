@@ -9,7 +9,7 @@ deploy:
 
 install:
   - pip install -r requirements.txt
-  - npm install bower
+  - npm install -g bower
   - bower install
 
 script:
