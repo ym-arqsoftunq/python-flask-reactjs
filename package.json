@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "engines": {
     "node": "8.4.0"
-    },
-    "scripts": {
-      "postinstall": "bower install"
-    }
+  },
+  "dependencies": {
+    "bower": "v1.8.0"
+  }
 }
